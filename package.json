@@ -1,0 +1,48 @@
+{
+  "name": "chart-utils",
+  "version": "1.0.0",
+  "description": "Utils Object from Chart.js",
+  "main": "./dist/chart-utils.min.js",
+  "files": [
+    "dist/chart-utils.min.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imhvost/chart-utils"
+  },
+  "scripts": {
+    "build": "rimraf dist && webpack --config webpack.config.js --mode production",
+    "dev": "webpack-dev-server --open --config webpack.config.js --mode development"
+  },
+  "keywords": [
+    "Chart.js",
+    "Utils"
+  ],
+  "author": "imhvost",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "chart.js": "^3.9.1",
+    "eslint": "^8.22.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "dependencies": {
+    "@kurkle/color": "^0.2.1",
+    "luxon": "^3.0.1"
+  }
+}
