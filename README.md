@@ -6,9 +6,9 @@ Utils Object from Chart.js
 ### Include Scripts
 ```html
 <script src="js/chart-utils.min.js"></script>
-<!-- or <script src="[js/chart-utils.min.js](https://imhvost.github.io/chart-utils.min.js)"></script> -->
 <script src="js/chart.min.js"></script>
 ```
+or [https://imhvost.github.io/chart-utils.min.js](https://imhvost.github.io/chart-utils.min.js)
 ## Initialization
 ```js
 const Utils = ChartUtils.init()
